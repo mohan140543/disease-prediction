@@ -5,7 +5,7 @@ import streamlit as st
 st.set_page_config(page_title="Heart Disease Prediction", layout="centered")
 
 # Load the trained model
-heart_disease_model = pickle.load(open("heart_disease_model.h5", 'rb'))
+heart_disease_model = pickle.load(open("heart_disease_model.sav", 'rb'))
 
 # UI Layout
 st.title('💓 Heart Disease Prediction using ML')
